@@ -7,7 +7,7 @@ pragma solidity >=0.5.0 <0.8.0;
 /// @dev Explain to a developer any extra details
 
 contract HelloWorld {
-    string public message = "HelloWorld!";
+    string public message = "Ola semana solidiy";
     function greetings() public view returns (string memory) {
         return message;
     }
