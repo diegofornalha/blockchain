@@ -5,7 +5,8 @@ contract("HelloWorld", function (accounts) {
     contract = await HelloWorld.new();
   });
   it("should return the correct message", async () => {
-const res = await contract.greetings();
-assert(res == "Hello World!");
+  const res = await contract.greetings();
+
+  assert(res == "Ola semana solidity!");
   });
 });
