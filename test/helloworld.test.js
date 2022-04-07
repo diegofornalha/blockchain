@@ -7,6 +7,6 @@ contract("HelloWorld", function (accounts) {
   it("should return the correct message", async () => {
   const res = await contract.greetings();
 
-  assert(res == "Ola semana solidity!");
+  assert(res === "Ola semana solidity!");
   });
 });

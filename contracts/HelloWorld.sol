@@ -5,9 +5,9 @@ pragma solidity >=0.5.0 <0.8.0;
 /// @author The name of the author
 /// @notice Explain to an end user what this does
 /// @dev Explain to a developer any extra details
-
 contract HelloWorld {
-    string public message = "Ola semana solidiy";
+    string public message = "Ola semana solidiy!";
+    
     function greetings() public view returns (string memory) {
         return message;
     }
