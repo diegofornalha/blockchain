@@ -7,4 +7,9 @@ contract HelloWorld {
     function greetings() public view returns (string memory) {
         return message;
     }
+
+        function setgreetings(string memory newMessage) public {
+        message = newMessage;
+
+    }
 }
